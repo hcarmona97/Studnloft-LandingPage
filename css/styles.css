@@ -192,6 +192,15 @@ h4 {
   margin: auto;
 }
 
+.form-control {
+  margin-bottom: 30px;
+}
+
+.envia-registro {
+  margin:0 auto;
+  display:block;
+}
+
 #footer{
   background-color: #00bcd4;
   overflow: hidden;
