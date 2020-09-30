@@ -199,6 +199,14 @@ h4 {
 .envia-registro {
   margin:0 auto;
   display:block;
+  border-color: #00bcd4;
+  color: #00bcd4;
+}
+
+.envia-registro:hover {
+  border-color: #00bcd4;
+  background: #00bcd4;
+  color: white;
 }
 
 #footer{
