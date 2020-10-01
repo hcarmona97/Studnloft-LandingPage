@@ -11,13 +11,17 @@ body {
   padding: 3% 15%;
 }
 
+.portada{
+  padding-bottom: 0;
+}
+
 .funciones {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .columnilla {
-  height: 500px;
+  height: 400px;
 }
 
 .feature {
@@ -69,17 +73,11 @@ h1 {
 }
 
 /* images */
-.fence {
-  width: 100%;
-  position: relative;
-  z-index: 3;
-}
-
 .title-image {
-  position: relative;
-  height: 140%;
-  z-index: 1;
-  top: -60px;
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  height: 120%;
 }
 
 .logo {
@@ -94,14 +92,19 @@ h1 {
   margin-bottom: 10px;
 }
 
-.fence-div {
+.fence {
   width: 100%;
+  position: relative;
+}
+
+.cerco {
+  padding: 0;
+  position: relative;
 }
 
 #features {
   background-color: white;
   position: relative;
-  z-index: 2;
   overflow: hidden;
 }
 
@@ -122,6 +125,7 @@ h1 {
   border-radius: 0.5em;
   background-color: white;
   overflow: hidden;
+  max-width: 700px;
 }
 
 .cont-depa{
@@ -143,6 +147,7 @@ small {
 
 .renta {
   width: 100%;
+  max-width: 200px;
   margin-left: 10px;
 }
 
@@ -158,7 +163,8 @@ h4 {
 }
 
 .mensaje {
-  margin-top: 100px;
+  margin-top: 25%;
+  margin-bottom: 25%;
 }
 
 .carousel-control-prev {
@@ -190,6 +196,7 @@ h4 {
 .form-group {
   width: 80%;
   margin: auto;
+  max-width: 500px;
 }
 
 .form-control {
